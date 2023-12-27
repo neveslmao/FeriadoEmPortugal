@@ -1,0 +1,65 @@
+:root {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Termina Light';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background: linear-gradient(243deg, #161815 0%, #222322 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding-top: 1%;
+}
+
+h2 {
+  font-size: 4.5em;
+  margin-bottom: 25%;
+}
+
+h1 {
+  font-size: 14.5em;
+  font-family: 'Termina Black';
+  line-height: 1;
+  padding: 0;
+  padding-bottom: .1em;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Termina Medium';
+  font-size: 1.5em;
+  padding: 1em, 1em;
+}
+
+footer {
+  color: #515B4C;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+}
+
+a {
+  font-family: 'Termina Black';
+  cursor: pointer;
+  color: transparent;
+  background: linear-gradient(267deg, #515B4C 16.61%, #9FB197 64.11%);
+  background-size: 200% 200%;
+  background-position: 0% 0%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background-position: 100% 100%;
+}
